@@ -31,6 +31,8 @@
         @yield('intro')
         @yield('content')
 
+        @yield('review')
+
         @yield('footer')
     </body>
 </html>

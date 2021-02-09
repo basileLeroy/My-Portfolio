@@ -19,3 +19,5 @@ Route::get('/', function () {
 
 // Laravel 8 needs the full namespace\controller.php
 Route::get('test', 'App\Http\Controllers\Controller@show');
+
+Route::post('/', 'App\Http\Controllers\Controller@store');

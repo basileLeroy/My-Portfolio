@@ -15,4 +15,20 @@ class Controller extends BaseController
     {
         return view('test');
     }
+
+    public function store()
+    {
+        
+        if(request('select') == 'yes') {
+            $answer = "Thank you " . request('name') . ", I also like you!";
+            
+        }
+
+        if(request('select') == 'no') {
+            $answer = "You know what.. " . request('name') . ", I don't like you neither!";
+            
+        }
+        
+        return view('welcome')->with('answer', $answer);
+    }
 }

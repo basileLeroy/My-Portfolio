@@ -5,25 +5,37 @@
 @section('intro')
     <div class="welcome" style="color:honeydew; width: 40vw; padding-left:50px; margin-top: 50px">
         <h1>WELCOME!</h1>
-        <br><br>
+        <br>
         <p>Welcome to my page! here you will find the home page, or welcome page where I used blades to import sections into specific pages of the webiste. like this one.</p>
     </div> 
 @endsection
 
 
 @section('content')
-    <form action="" method="POST">
-        <div class="form" style="display: flex; flex-direction:column; justify-content:center; width: 40%; margin: auto; margin-top: 100px; margin-bottom: 160px">
+    <form action="/" method="POST">
+        {{ csrf_field() }}
+        <div class="form" style="display: flex; flex-direction:column; text-align:center; align-items:center; justify-content:center; width: 40%; margin: auto; margin-top: 50px; margin-bottom: 50px">
             <h3 style="color: honeydew;">Do You like my page?</h3>
-            <select name="select" id="select" style="width:50%">
+            <hr>
+            <input style="width:50%; text-align:center" type="text" name="name" placeholder="Your name ...">
+            <br>
+            <select name="select" id="select" style="width:50%; text-align:center">
                 <option value="yes">YES</option>
                 <option value="no">NO</option>
-                <option value="undecided">UNDECIDED</option>
+                
             </select>
             <br>
-            <button type="submit" name="submit" id="submit" style="width:50%">Submit</button>
+            <button type="submit" name="submit" id="submit" value="ok" style="width:50%; text-align:center">Submit</button>
         </div>
     </form>
+@endsection
+
+@section('review')
+    @isset($answer)
+    <div class="answer" style="color:honeydew; margin:auto; text-align:center">
+        <h2>{{ $answer }}</h2>
+    </div>
+    @endisset
 @endsection
 
 
