@@ -30,7 +30,7 @@
 
         @yield('intro')
         @yield('content')
-
+        @yield('error')
         @yield('review')
 
         @yield('footer')

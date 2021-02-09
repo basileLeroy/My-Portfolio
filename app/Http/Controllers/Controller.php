@@ -18,17 +18,21 @@ class Controller extends BaseController
 
     public function store()
     {
-        
+        request()->validate([
+            'name' => 'required',
+            'select' => 'required',
+        ]);
+
         if(request('select') == 'yes') {
             $answer = "Thank you " . request('name') . ", I also like you!";
-            
+            return view('welcome')->with('answer', $answer);
         }
 
         if(request('select') == 'no') {
             $answer = "You know what.. " . request('name') . ", I don't like you neither!";
-            
+            return view('welcome')->with('answer', $answer);
         }
         
-        return view('welcome')->with('answer', $answer);
+        
     }
 }

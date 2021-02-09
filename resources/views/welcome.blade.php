@@ -18,6 +18,13 @@
             <h3 style="color: honeydew;">Do You like my page?</h3>
             <hr>
             <input style="width:50%; text-align:center" type="text" name="name" placeholder="Your name ...">
+            @section('error')
+                <div class="d-flex justify-content-center -w-25">
+                    @foreach ($errors->all() as $error )
+                        <p class="alert alert-danger justify-content-center">{{ $error }}</p>
+                    @endforeach
+                </div>
+            @endsection
             <br>
             <select name="select" id="select" style="width:50%; text-align:center">
                 <option value="yes">YES</option>
@@ -37,5 +44,3 @@
     </div>
     @endisset
 @endsection
-
-
