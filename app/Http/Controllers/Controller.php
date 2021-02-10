@@ -7,6 +7,8 @@ use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Routing\Controller as BaseController;
 use Illuminate\Support\Facades\DB;
+use App\Models\Post;
+use App\Models\Review;
 
 class Controller extends BaseController
 {
@@ -15,10 +17,18 @@ class Controller extends BaseController
 
     public function show($slug)
     {
-        $post = DB::table('post')->where('slug', $slug)->first();
+        // $post = DB::table('post')->where('slug', $slug)->first();
+        // $post = Post::where('slug', $slug)->firstOrFail();
 
         return view('test', [
-            'post' => $post
+            'post' => Post::where('slug', $slug)->firstOrFail()
+        ]);
+    }
+
+    public function create()
+    {
+        return view('review', [
+            'posts' => Review::all()
         ]);
     }
 
@@ -27,7 +37,16 @@ class Controller extends BaseController
         request()->validate([
             'name' => ['required', 'min:3'],
             'select' => 'required',
+            'review' => 'required',
         ]);
+
+        $review = new Review;
+
+        $review->name = request('name');
+        $review->selection = request('select');
+        $review->review = request('review');
+
+        $review->save();
 
         if(request('select') == 'yes') {
             $answer = "Thank you " . request('name') . ", I also like you!";
@@ -39,4 +58,5 @@ class Controller extends BaseController
             return view('welcome')->with('answer', $answer);
         }
     }
+
 }

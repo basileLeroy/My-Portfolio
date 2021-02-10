@@ -14,7 +14,7 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
+                            <a class="nav-link" href="/review">Reviews</a>
                         </li>
 
                         <li class="nav-item dropdown">
