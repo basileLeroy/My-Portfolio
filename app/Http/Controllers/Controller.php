@@ -6,20 +6,26 @@ use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Routing\Controller as BaseController;
+use Illuminate\Support\Facades\DB;
 
 class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
+    
 
-    public function show()
+    public function show($slug)
     {
-        return view('test');
+        $post = DB::table('post')->where('slug', $slug)->first();
+
+        return view('test', [
+            'post' => $post
+        ]);
     }
 
     public function store()
     {
         request()->validate([
-            'name' => 'required',
+            'name' => ['required', 'min:3'],
             'select' => 'required',
         ]);
 
@@ -32,7 +38,5 @@ class Controller extends BaseController
             $answer = "You know what.. " . request('name') . ", I don't like you neither!";
             return view('welcome')->with('answer', $answer);
         }
-        
-        
     }
 }
