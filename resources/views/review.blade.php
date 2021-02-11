@@ -18,7 +18,7 @@
 
 @section('content')
     @foreach ($posts as $post)
-    <div class="card">
+    <div class="card w-50 p-3 start-50 translate-middle">
         <div class="card-header">
             From {{ $post->name }},
         </div>
@@ -33,8 +33,6 @@
     <br><br>
     @endforeach
 @endsection
-
-
 
 <!-- <div style="width:50%; text-align:center; color: honeydew;">
     <p>{{ $posts }}</p>

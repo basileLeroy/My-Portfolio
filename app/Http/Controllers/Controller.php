@@ -13,11 +13,13 @@ use App\Models\Review;
 class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
-    
 
     public function show($slug)
     {
+        // connecting directly to database:
         // $post = DB::table('post')->where('slug', $slug)->first();
+
+        // Connecting via eloquent models to database:
         // $post = Post::where('slug', $slug)->firstOrFail();
 
         return view('test', [
@@ -58,5 +60,4 @@ class Controller extends BaseController
             return view('welcome')->with('answer', $answer);
         }
     }
-
 }
