@@ -3,7 +3,7 @@
 @extends('footer')
 
 @section('intro')
-    <div class="welcome" style="color:honeydew; width: 40vw; padding-left:50px; margin-top: 50px">
+    <div class="welcome" style="color:honeydew; width: 40vw; padding-left:50px">
         <h1>WELCOME!</h1>
         <br>
         <p>Welcome to my page! here you will find the home page, or welcome page where I used blades to import sections into specific pages of the webiste. like this one.</p>

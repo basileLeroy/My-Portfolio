@@ -1,3 +1,31 @@
 body {
-  background-color: #d4b58c;
+  font-family: "Nunito";
+  width: 100vw;
+  min-height: 100vh;
+}
+body .container-home {
+  background-image: url(/images/ghent.jpg?5d6918125e558ade51dc9c8fee346523);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-width: 100vw;
+  min-height: 100vh;
+  padding-bottom: 2.5rem;
+}
+body .container-review {
+  background-image: url(/images/Ghent_at_night.jpg?8947e1ae8dfe7241ad2158cba5d96b61);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-width: 100vw;
+  min-height: 100vh;
+  padding-bottom: 2.5rem;
+}
+body .footer {
+  background-color: #efefef;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
 }

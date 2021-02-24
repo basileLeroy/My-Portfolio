@@ -17,21 +17,24 @@
 
 
 @section('content')
-    @foreach ($posts as $post)
-    <div class="card w-50 p-3 start-50 translate-middle">
-        <div class="card-header">
-            From {{ $post->name }},
-        </div>
 
-        <div class="card-body">
-            <blockquote class="blockquote mb-0">
-                <p>{{ $post->review }}</p>
-                <footer class="blockquote-footer">Selected: {{ $post->selection }} <cite title="Source Title">|| at {{ $post->created_at }}</cite></footer>
-            </blockquote>
+    <div class="container review">
+        @foreach ($posts as $post)
+        <div class="card w-50 p-3 start-50 translate-middle">
+            <div class="card-header">
+                From {{ $post->name }},
+            </div>
+
+            <div class="card-body">
+                <blockquote class="blockquote mb-0">
+                    <p>{{ $post->review }}</p>
+                    <footer class="blockquote-footer">Selected: {{ $post->selection }} <cite title="Source Title">|| at {{ $post->created_at }}</cite></footer>
+                </blockquote>
+            </div>
         </div>
+        <br><br>
+        @endforeach
     </div>
-    <br><br>
-    @endforeach
 @endsection
 
 <!-- <div style="width:50%; text-align:center; color: honeydew;">

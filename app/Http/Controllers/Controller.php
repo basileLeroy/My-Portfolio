@@ -29,8 +29,11 @@ class Controller extends BaseController
 
     public function create()
     {
+        $backgroundImage = "";
         return view('review', [
-            'posts' => Review::all()
+            'posts' => Review::all(),
+            'container-review' => $backgroundImage,
+
         ]);
     }
 
@@ -52,7 +55,7 @@ class Controller extends BaseController
 
         if(request('select') == 'yes') {
             $answer = "Thank you " . request('name') . ", I also like you!";
-            return view('welcome')->with('answer', $answer);
+            return view('welcome')->with( 'answer', $answer );
         }
 
         if(request('select') == 'no') {
