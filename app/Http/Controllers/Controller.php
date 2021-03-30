@@ -64,37 +64,39 @@ class Controller extends BaseController
         }
     }
 
-    public function register()
-    {
+    // public function register()
+    // {
         
-        request()->validate([
-            'username' => ['required', 'min:3'],
-            'password' => ['required', 'confirmed', 'min:6'],
-            'password_confirmation' => 'required',
-        ]);
-        
-
-        $register = new User;
-
-        $register->username = request('username');
-        $register->password = request('password');
+    //     request()->validate([
+    //         'username' => ['required', 'min:3'],
+    //         'password' => ['required', 'confirmed', 'min:6'],
+    //         'password_confirmation' => 'required',
+    //     ]);
         
 
-        $register->save();
+    //     $register = new User;
 
-        $user = request('username');
+    //     $register->username = request('username');
+    //     $register->password = request('password');
+        
 
-        return view('user')->with('user', $user);
-    }
+    //     $register->save();
 
-    public function login()
-    {
-        $user = request('name');
-        $pwd = request('pwd');
-        $login = User::where('username', $user && 'password', $pwd)->first();
+    //     $user = request('username');
 
-        if(! $login == null) {
-            return view('user');
-        };
-    }
+    //     return view('user')->with('user', $user);
+    // }
+
+    // public function login()
+    // {
+    //     $user = request('name');
+    //     $pwd = request('pwd');
+    //     $login = User::where('username', $user && 'password', $pwd)->first();
+
+    //     if(! $login == null) {
+    //         return view('user');
+    //     };
+    // }
+
+    
 }

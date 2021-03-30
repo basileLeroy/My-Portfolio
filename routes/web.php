@@ -17,11 +17,13 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::middleware(['auth'])->get('/dashboard', function () {
+    return view('dashboard');
+})->name('dashboard');
+
 // Laravel 8 needs the full namespace\controller.php
 Route::get('test/{slug}', 'App\Http\Controllers\Controller@show');
 Route::get('review', 'App\Http\Controllers\Controller@create');
 
 Route::post('/user', 'App\Http\Controllers\Controller@create');
 Route::post('/user', 'App\Http\Controllers\Controller@store');
-Route::post('/user', 'App\Http\Controllers\Controller@register');
-Route::post('/user', 'App\Http\Controllers\Controller@login');
