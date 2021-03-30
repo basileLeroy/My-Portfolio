@@ -21,5 +21,7 @@ Route::get('/', function () {
 Route::get('test/{slug}', 'App\Http\Controllers\Controller@show');
 Route::get('review', 'App\Http\Controllers\Controller@create');
 
-Route::post('/', 'App\Http\Controllers\Controller@create');
-Route::post('/', 'App\Http\Controllers\Controller@store');
+Route::post('/user', 'App\Http\Controllers\Controller@create');
+Route::post('/user', 'App\Http\Controllers\Controller@store');
+Route::post('/user', 'App\Http\Controllers\Controller@register');
+Route::post('/user', 'App\Http\Controllers\Controller@login');

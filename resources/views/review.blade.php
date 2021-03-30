@@ -8,10 +8,13 @@
 
 
 @section('intro')
-<div class="welcome" style="color:honeydew; width: 40vw; padding-left:50px; margin-top: 50px">
+<div class="welcome" style="color:honeydew; width: 40vw; padding-left:50px; padding-top: 20px">
     <h1>HELLO WORLD!</h1>
     <br>
-    <p>Here are some of the fines reviews!</p>
+    <p>
+        Here are some of the fines reviews! <br>
+        
+    </p>
 </div> 
 @endsection
 

@@ -9,12 +9,13 @@ use Illuminate\Routing\Controller as BaseController;
 use Illuminate\Support\Facades\DB;
 use App\Models\Post;
 use App\Models\Review;
+use App\Models\User;
 
 class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 
-    public function show($slug)
+    public function show($user)
     {
         // connecting directly to database:
         // $post = DB::table('post')->where('slug', $slug)->first();
@@ -22,17 +23,16 @@ class Controller extends BaseController
         // Connecting via eloquent models to database:
         // $post = Post::where('slug', $slug)->firstOrFail();
 
-        return view('test', [
-            'post' => Post::where('slug', $slug)->firstOrFail()
+        return view('user.show', [
+            'user' => Post::where('username', $user)->firstOrFail()
         ]);
     }
 
     public function create()
     {
-        $backgroundImage = "";
+        
         return view('review', [
-            'posts' => Review::all(),
-            'container-review' => $backgroundImage,
+            'posts' => Review::all()
 
         ]);
     }
@@ -62,5 +62,39 @@ class Controller extends BaseController
             $answer = "You know what.. " . request('name') . ", I don't like you neither!";
             return view('welcome')->with('answer', $answer);
         }
+    }
+
+    public function register()
+    {
+        
+        request()->validate([
+            'username' => ['required', 'min:3'],
+            'password' => ['required', 'confirmed', 'min:6'],
+            'password_confirmation' => 'required',
+        ]);
+        
+
+        $register = new User;
+
+        $register->username = request('username');
+        $register->password = request('password');
+        
+
+        $register->save();
+
+        $user = request('username');
+
+        return view('user')->with('user', $user);
+    }
+
+    public function login()
+    {
+        $user = request('name');
+        $pwd = request('pwd');
+        $login = User::where('username', $user && 'password', $pwd)->first();
+
+        if(! $login == null) {
+            return view('user');
+        };
     }
 }
