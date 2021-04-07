@@ -11,8 +11,8 @@
 
 @section('content')
 
-
-    <div class="card w-50 d-flex mx-auto mt-2 pt-4">
+    
+    <div class="card w-50 position-absolute top-50 start-50 translate-middle" style="opacity: 0.9;">
         <div class="card-body">
             @if(Session::has('message_sent'))
                 <div class="alert alert-success" role="alert">

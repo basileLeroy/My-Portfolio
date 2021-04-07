@@ -46,7 +46,7 @@
                                 <option value="no">NO</option>
                             </select>
                             <br>
-                            <textarea id="subject" name="review" placeholder="Tell me WHYY.. Ain't nothing but a hea-..." style=""></textarea>
+                            <textarea id="subject" name="review" placeholder="Tell me WHYY.. Ain't nothing but a hea-..."></textarea>
                             <br>
                             <button type="submit" name="submit" id="submit" value="ok" style="text-align:center">Submit</button>
                         </div>
