@@ -3,7 +3,9 @@
 @extends('footer')
 
 
-
+@section('title')
+    Basile
+@endsection
 
 @section('landing')
     <div class="d-flex m-auto justify-content-center pt-4">
