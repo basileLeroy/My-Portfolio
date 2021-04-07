@@ -53,15 +53,10 @@ class Controller extends BaseController
 
         $review->save();
 
-        if(request('select') == 'yes') {
-            $answer = "Thank you " . request('name') . ", I also like you!";
-            return view('welcome')->with( 'answer', $answer );
-        }
+        return view('review', [
+            'posts' => Review::all()
 
-        if(request('select') == 'no') {
-            $answer = "You know what.. " . request('name') . ", I don't like you neither!";
-            return view('welcome')->with('answer', $answer);
-        }
+        ]);
     }
 
     // public function register()

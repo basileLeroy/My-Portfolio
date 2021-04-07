@@ -62,8 +62,8 @@
                     <p class="card-text text-start">
                     Not too long ago, I had close to no knowledge about programming. <br>
                     Now, I have mastered the ability to create amazing things in multiple languages! <br>
-                    How far I have gotten up until now, I can only explain by a mix of
-                    interest, <span style="color: brown; font-size: 18px;">wanting to learn, motivation and dedication</span>. <br/><br/>
+                    How far I have gotten up until now, I can only explain by a mix of 
+                    <span style="color: brown; font-size: 18px;">interest, wanting to learn, motivation and dedication</span>. <br/><br/>
                     <i>Sociable, teamplayer, client-oriented, .. Those are badges I wear with honor.</i>
                     </p>
                 </div>
@@ -72,12 +72,4 @@
         </div>
     </div>
 
-@endsection
-
-@section('error')
-    <div class="d-flex justify-content-center -w-25">
-        @foreach ($errors->all() as $error )
-            <p class="alert alert-danger justify-content-center">{{ $error }}</p>
-        @endforeach
-    </div>
 @endsection

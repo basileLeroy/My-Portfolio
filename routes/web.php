@@ -25,6 +25,8 @@ Route::middleware(['auth'])->get('/dashboard', function () {
 Route::get('test/{slug}', 'App\Http\Controllers\Controller@show');
 Route::get('review', 'App\Http\Controllers\Controller@create');
 Route::get('projects', 'App\Http\Controllers\ProjectsController@create');
+Route::get('contact', 'App\Http\Controllers\ContactController@create');
 
-Route::post('/user', 'App\Http\Controllers\Controller@create');
-Route::post('/user', 'App\Http\Controllers\Controller@store');
+Route::post('/review', 'App\Http\Controllers\Controller@create');
+Route::post('/review', 'App\Http\Controllers\Controller@store');
+Route::post('/send-message', 'App\Http\Controllers\ContactController@sendEmail')->name('contact.send');

@@ -18,17 +18,15 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="/review">Reviews</a>
+                            <a class="nav-link" href="/contact">Contact</a>
                         </li>
-
                     </ul>
                     <div class="login-container d-flex">
-                        <form method="POST" action="/user">
-                        {{ csrf_field() }}
-                            <input type="text" placeholder="Username" name="name">
-                            <input type="password" placeholder="Password" name="pwd">
-                            <button class="btn btn-outline-primary h-auto" type="submit">Login</button>
-                        </form>
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="/review">Reviews</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
