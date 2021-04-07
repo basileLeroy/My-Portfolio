@@ -22,7 +22,7 @@
         @yield('userHeader')
             <div class="container-home">
                 @yield('intro')
-                @yield('register')
+                @yield('landing')
                 @yield('content')
                 @yield('error')
                 @yield('review')

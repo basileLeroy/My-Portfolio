@@ -14,6 +14,10 @@
                         </li>
 
                         <li class="nav-item">
+                            <a class="nav-link" href="/projects">Projects</a>
+                        </li>
+
+                        <li class="nav-item">
                             <a class="nav-link" href="/review">Reviews</a>
                         </li>
 

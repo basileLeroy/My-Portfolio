@@ -24,6 +24,7 @@ Route::middleware(['auth'])->get('/dashboard', function () {
 // Laravel 8 needs the full namespace\controller.php
 Route::get('test/{slug}', 'App\Http\Controllers\Controller@show');
 Route::get('review', 'App\Http\Controllers\Controller@create');
+Route::get('projects', 'App\Http\Controllers\ProjectsController@create');
 
 Route::post('/user', 'App\Http\Controllers\Controller@create');
 Route::post('/user', 'App\Http\Controllers\Controller@store');
