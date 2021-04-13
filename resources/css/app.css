@@ -5,17 +5,13 @@ body {
 }
 
 body .container {
-  background-image: url("/images/ghent.jpg");
+  background-image: url(../images/ghent.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   min-width: 100vw;
   min-height: 100vh;
   padding-bottom: 2.5rem;
-}
-
-body .container .review {
-  background-image: url("/images/Ghent_at_night.jpg");
 }
 
 body .footer {

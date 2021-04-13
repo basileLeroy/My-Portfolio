@@ -4,7 +4,7 @@ body{
     min-height: 100vh;
     
     .container{
-        background-image: url("/images/ghent.jpg");
+        background-image: url(../images/ghent.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -12,10 +12,6 @@ body{
         min-height: 100vh;
 
         padding-bottom: 2.5rem;
-
-        .review{
-            background-image: url("/images/Ghent_at_night.jpg");
-        }
     }
     
     .footer{
