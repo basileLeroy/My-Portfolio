@@ -19,8 +19,6 @@ Route::get('/', function () {
 });
 
 Route::get('/articles', function () {
-    $artictles = Http::get("https://dev.to/api/articles?username=basileleroy");
-    dd($artictles->json());
 
     return view('/articles');
 });
