@@ -89,7 +89,7 @@
                     <img src="{{url('/images/portfolio.gif')}}" class="img-responsive project-active" style="height: 150px; width:100%; position:absolute;" alt="...">
                 </div>
                 <div class="card-body">
-                    <h5 class="card-title"><a href="http://intro-react-basile.netlify.app">Portfolio: Reactjs version</a></h5>
+                    <h5 class="card-title"><a href="https://basile-portfolio.netlify.app">Portfolio: Reactjs version</a></h5>
                     <p class="card-text">
                         Using Reactjs, tailwind css and netlify, I also made a portfolio page using javascript frameworks. <br>
                         I aspire to become a full stack developper, specializing in Reactjs and Nodejs. Vue and Svelte are also on that list.
