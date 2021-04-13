@@ -5,7 +5,7 @@ body {
   min-height: 100vh;
 }
 body .container-home {
-  background-image: url(/images/ghent.jpg?5d6918125e558ade51dc9c8fee346523);
+  background-image: url(../images/ghent.jpg?5d6918125e558ade51dc9c8fee346523);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -14,7 +14,7 @@ body .container-home {
   padding-bottom: 2.5rem;
 }
 body .container-review {
-  background-image: url(/images/Ghent_at_night.jpg?8947e1ae8dfe7241ad2158cba5d96b61);
+  background-image: url(../images/Ghent_at_night.jpg?8947e1ae8dfe7241ad2158cba5d96b61);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
