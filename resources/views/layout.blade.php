@@ -20,7 +20,7 @@
     <body>
         @yield('header')
         @yield('userHeader')
-            <div class="container-home">
+            <div class="container">
                 @yield('intro')
                 @yield('landing')
                 @yield('content')
