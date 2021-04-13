@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,6 +17,14 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/articles', function () {
+    $artictles = Http::get("https://dev.to/api/articles?username=basileleroy");
+    dd($artictles->json());
+
+    return view('/articles');
+});
+
 
 // Laravel 8 needs the full namespace\controller.php
 
