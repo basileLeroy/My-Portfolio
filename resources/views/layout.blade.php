@@ -6,7 +6,7 @@
 
         <title>@yield('title', 'Laravel')</title>
 
-        <link rel="stylesheet" type="text/css" href="{{ url('/css/app.css') }}" />
+        <link rel="stylesheet" type="text/css" href="./css/app.css" />
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
