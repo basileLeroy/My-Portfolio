@@ -5,7 +5,7 @@ body {
 }
 
 body .container {
-  background-image: url(../images/ghent.jpg);
+  background-image: url("https://raw.githubusercontent.com/basileLeroy/discovering-laravel/main/public/images/ghent.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -15,7 +15,7 @@ body .container {
 }
 
 body .container .review {
-  background-image: url(../images/Ghent_at_night.jpg);
+  background-image: url("https://raw.githubusercontent.com/basileLeroy/discovering-laravel/main/public/images/Ghent_at_night.jpg");
 }
 
 body .footer {
