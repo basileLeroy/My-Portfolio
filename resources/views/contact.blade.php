@@ -19,7 +19,7 @@
                     {{ Session::get('message_sent')}}
                 </div>
             @endif
-            <form method="POST" action="{{route('contact.send')}}" class="row g-3" enctype="multipart/form-data">
+            <form method="POST" action="./send-message" class="row g-3" enctype="multipart/form-data">
             {{ csrf_field() }}
                 <div class="col-md-12">
                     <label for="email" class="form-label">Email</label>
