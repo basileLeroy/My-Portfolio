@@ -8,8 +8,8 @@
 @endsection
 
 @section('landing')
-    <div class="d-flex m-auto justify-content-center pt-4">
-        <div class="card mx-2" style="width: 250px;">
+    <div class="about-me">
+        <div class="card-me">
             <img src="{{url('/images/me.jpg')}}" alt="Image"/>
             <div class="card-body">
             <h4>Basile</h4>
@@ -24,7 +24,7 @@
                 Belgium, Ghent<br>
                 Dutch, French, English
             </p>
-            <div class="w-50 mx-auto">
+            <div class="links">
                         <a href="https://linkedin.com/in/basile-leroy" class=" px-2">
                             <svg class="linkedin w-25" fill="#6d6d6d" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
                                 <path d="m437 0h-362c-41.355469 0-75 33.644531-75 75v362c0 41.355469 33.644531 75 75 75h362c41.355469 0 75-33.644531 75-75v-362c0-41.355469-33.644531-75-75-75zm45 437c0 24.8125-20.1875 45-45 45h-362c-24.8125 0-45-20.1875-45-45v-362c0-24.8125 20.1875-45 45-45h362c24.8125 0 45 20.1875 45 45zm0 0"/>
@@ -43,9 +43,9 @@
         </div>
         
 
-        <div class="card w-50 text-center border-secondary d-flex justify-content-center mx-2">
+        <div class="card-me card-me-about">
             
-            <div class="card">
+            <div class="about-me-context">
                 <div class="card-body">
                     <h2 class="card-title ">About me</h2>
                     <h4 class="card-subtitle mb-2 text-muted text-start">Storytime!</h4>

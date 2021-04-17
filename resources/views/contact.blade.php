@@ -10,9 +10,8 @@
 
 
 @section('content')
-
-    
-    <div class="card w-50 position-absolute top-50 start-50 translate-middle" style="opacity: 0.9;">
+<div class="contact-content">
+    <div class="card">
         <div class="card-body">
             @if(Session::has('message_sent'))
                 <div class="alert alert-success" role="alert">
@@ -54,5 +53,5 @@
             </form>
         </div>
     </div>
-
+</div>
 @endsection

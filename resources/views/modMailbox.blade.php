@@ -7,7 +7,7 @@
     <title>MailBox</title>
 </head>
 <body>
-    <h1>Contact Messages</h1>
+    <h1>Messages to Basile&Code</h1>
     <p>Email: {{ $details['email'] }}</p>
     <p>Name: {{ $details['name'] }}</p>
     <p>Last Name: {{ $details['lastName'] }}</p>

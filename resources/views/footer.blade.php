@@ -1,9 +1,9 @@
 @section('footer')
     <footer class="footer">
         <!-- Copyright -->
-        <div class="text-center p-3">
-            © 2021 Copyright:
-            <a class="text-dark" href="#">Basile&Co</a>
+        <div class="text-center">
+            © 2021
+            <a class="text-dark" href="#">Basile&Code</a>
         </div>
         <!-- Copyright -->
     </footer>
