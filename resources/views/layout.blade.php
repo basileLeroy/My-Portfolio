@@ -7,7 +7,7 @@
 
         <title>@yield('title', 'Laravel')</title>
 
-        <link rel="stylesheet" href="{{ secure_asset('css/AdminLTE.min.css') }}">
+        <link rel="stylesheet" type="text/css" href="{{ asset('css/app.css') }}" />
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
