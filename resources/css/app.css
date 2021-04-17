@@ -151,7 +151,7 @@
   body header {
     background-color: #efefef;
     width: 100%;
-    max-width: 1700px;
+    max-width: 2700px;
     position: fixed;
     left: 0;
     top: 0;
@@ -165,7 +165,7 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     width: 100%;
-    max-width: 1700px;
+    max-width: 2700px;
     height: 100vh;
     margin-top: 2.5rem;
     padding-bottom: 2.5rem;
@@ -276,7 +276,7 @@
   body .footer {
     background-color: #efefef;
     width: 100%;
-    max-width: 1700px;
+    max-width: 2700px;
     height: 2.5rem;
     z-index: 20;
   }
