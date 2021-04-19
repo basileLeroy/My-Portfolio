@@ -1,10 +1,14 @@
 
+
 @media only screen and (max-width: 450px) {
 
     body{
         font-family: 'Nunito';
         width: 100vw;
         min-height: 100vh;
+
+        overflow-y: auto;
+        overflow-x: hidden;
 
         header{
             background-color: #efefef;
@@ -137,6 +141,7 @@
 
 @media only screen and (min-width: 450px) {
 
+
     body{
         display: flex;
         flex-direction: column;
@@ -145,6 +150,9 @@
         min-height: 100vh;
         margin: auto;
         justify-content: center;
+
+        overflow-y: auto;
+        overflow-x: hidden;
 
         header{
             background-color: #efefef;
@@ -159,6 +167,7 @@
         
         .container-body{
             z-index: 0;
+            overflow-x: hidden;
             background-image: url(../images/ghent.jpg);
             background-size: cover;
             background-repeat: no-repeat;
