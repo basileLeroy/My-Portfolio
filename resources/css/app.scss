@@ -1,4 +1,6 @@
-
+* {
+    color: #303030;
+}
 
 @media only screen and (max-width: 450px) {
 
@@ -55,9 +57,17 @@
                     margin-bottom: 10px;
                     width: 100%;
 
-                    .links {
-                        width: 50%;
-                        margin: auto;
+                    .link-box {
+                        .links {
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+                            justify-content: space-around;
+
+                            a {
+                                text-align: center;
+                            }
+                        }
                     }
 
                     .about-me-context {
@@ -146,6 +156,7 @@
         display: flex;
         flex-direction: column;
         font-family: 'Nunito';
+        color: #212121;
         width: 100vw;
         min-height: 100vh;
         margin: auto;
@@ -183,9 +194,10 @@
                 flex-direction: row;
                 justify-content: center;
                 padding-bottom: 20px;
-                padding-top: 50px;
+                padding-top: 30px;
                 margin: auto;
                 width: 70%;
+                height: auto;
 
                 img {
                     width: 100%;
@@ -195,18 +207,22 @@
                 
                 .card-me {
                     flex-direction: column;
-                    justify-content: space-between;
+                    justify-content: space-around;
                     background-color: #fff;
+                    color: #505050;
+                    box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.3);
                     background-clip: border-box;
                     border: 1px solid rgba(0,0,0,.125);
                     width: 250px;
                     margin: 4px;
 
-                    
-                    .links {
-                        padding-top: 50px;
-                        width: 70%;
-                        margin: auto;
+                    .link-box {
+                        width: 250px;
+                        .links {
+                            padding-top: 50px;
+                            width: 50%;
+                            margin: auto;
+                        }
                     }
                 }
                 
@@ -214,29 +230,43 @@
                     width: 100%;
                     .about-me-context {
                         background-color: #fff;
+                        color: #505050;
+                        box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.3);
+                        height: 100%;
                         background-clip: border-box;
                         border: 1px solid rgba(0,0,0,.125);
                         justify-content: center;
-                        margin-top: 10px;
-                        margin-bottom: 10px;
                     }
                 }
                 
             }
 
             .project-content {
+                color: #505050;
                 padding-top: 20px;
             }
             .article-content {
+                color: #505050;
                 display: flex;
-                flex-direction: row;
+                flex-direction: column;
                 justify-content: space-around;
                 margin-top: 3.5rem;
-                padding-top: 3.5rem;
-                width: 25rem;
+                padding-top: 20px;
+                width: 100%;
                 margin: auto;
+
+                .article {
+                    color: #505050;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+                    padding-top: 20px;
+                    width: 25rem;
+                    margin: auto;
+                }
             }
             .contact-content {
+                color: #505050;
                 padding-top: 30px;
                 width: 50%;
                 opacity: 0.9;
@@ -249,7 +279,7 @@
             }
 
             .review-content {
-                
+                color: #505050;
                 padding-top: 30px;
                 
                 opacity: 0.9;

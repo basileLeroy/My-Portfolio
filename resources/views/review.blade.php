@@ -66,15 +66,16 @@
     <div class="container review">
         @foreach ($posts as $post)
         <div class="single-review">
-            <div class="card">
-                <div class="card-header">
+            <div class="card" style="box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.3);">
+                <div class="card-header" style=" font-weight: 700;">
                     From {{ $post->name }},
                 </div>
 
                 <div class="card-body">
                     <blockquote class="blockquote mb-0">
-                        <p>{{ $post->review }}</p>
-                        <footer class="blockquote-footer">Selected: {{ $post->selection }} <cite title="Source Title">• {{ $post->created_at }}</cite></footer>
+                        <p class="text-muted" style="font-weight: 400;">{{ $post->review }}</p>
+                        <br>
+                        <footer class="blockquote-footer text-right text-muted">Selected: {{ $post->selection }} <cite title="Source Title">• {{ $post->created_at }}</cite></footer>
                     </blockquote>
                 </div>
             </div>

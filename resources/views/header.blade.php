@@ -27,7 +27,7 @@
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="font-size: 20px; font-weight: 400;">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="/">BASILE</a>
                         </li>
@@ -45,7 +45,7 @@
                         </li>
                     </ul>
                     <div class="login-container d-flex">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="font-size: 20px; font-weight: 400;">
                             <li class="nav-item">
                                 <a class="nav-link" href="/review">Reviews</a>
                             </li>

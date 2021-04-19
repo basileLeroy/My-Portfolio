@@ -2,8 +2,8 @@
     <footer class="footer">
         <!-- Copyright -->
         <div class="text-center">
-            © 2021
-            <a class="text-dark" href="#">Basile&Code</a>
+            © <?php echo date("Y"); ?>
+            <a class="text-dark" href="/contact">Basile&Code</a>
         </div>
         <!-- Copyright -->
     </footer>

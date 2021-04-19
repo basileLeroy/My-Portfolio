@@ -10,9 +10,12 @@
 @section('content')
 <div class="project-content">
 
-    <div class="alert alert-warning alert-dismissible fade show" role="alert">
-        <strong>My projects!</strong>
-        <p>Here you will find a list of projects I have worked on so far. As I am getting really enthousiastic, I can assure you that more will be displayed soon!</p>
+    <div class="alert alert-warning alert-dismissible fade show" style="box-shadow: 0 4px 2px 0 hsla(0, 0%, 0%, 0.2); margin-left:5%; margin-right:5%;" role="alert">
+        <p style="color: #bd6b00; font-weight: 400;">
+            <span style="color: #bd6b00; font-weight: 700;">My projects!</span>
+            <hr>
+            Here you will find a list of projects I have worked on so far. As I am getting really enthousiastic, I can assure you that more will be displayed soon!
+        </p>
         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
             <span aria-hidden="true">&times;</span>
         </button>
@@ -20,13 +23,13 @@
 
     <div class="">
         <div class="d-flex flex-wrap justify-content-evenly">
-            <div class="card my-3" style="width: 350px;">
+            <div class="card my-3" style="width: 350px; box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.3);">
                 <div class=" card-image-top image" style="height: 150px; width: auto;">
                     <img src="{{url('/images/Hygeia_banner.png')}}" class="img-responsive project-active" style="height: 150px; width:100%; position:absolute;" alt="...">
                 </div>
                 <div class="card-body">
                     <h5 class="card-title"><a href="https://hygeia.netlify.app/">Hygeia: A Health platform</a></h5>
-                    <p class="card-text">
+                    <p class="card-text text-muted" style="font-weight:500;">
                         A documentation platform combined with a social platform for people that have <br>
                         been or are currently confronted with mental heatlh problems/ difficulties.
                         
@@ -55,13 +58,13 @@
                 </div>
             </div>
             
-            <div class="card my-3" style="width: 350px;">
+            <div class="card my-3" style="width: 350px; box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.3);">
                 <div class=" card-image-top image" style="height: 150px; width: auto;">
                     <img src="{{url('/images/HustlePrime_banner.png')}}" class="project-active" style="height: 150px; width:100%; position:absolute;" alt="...">
                 </div>
                 <div class="card-body">
                     <h5 class="card-title"><a href="https://basileleroy.github.io/hustle-prime/home.html">Hustle Prime</a></h5>
-                    <p class="card-text">
+                    <p class="card-text text-muted" style="font-weight:500;">
                         A fan-based vanilla JS platform (and actually my first JS project I made) made for a mobile game. <br/>
                         It contains multiple html pages and some interactivity (see lower half of the Ancient sets: nav: META&gt;Ancient sets).
                     </p>
@@ -83,13 +86,13 @@
             </div>
 
             
-            <div class="card my-3" style="width: 350px;">
+            <div class="card my-3" style="width: 350px; box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.3);">
                 <div class=" card-image-top image" style="height: 150px; width: auto;">
                     <img src="{{url('/images/Todo_banner.png')}}" class="img-responsive project-active" style="height: 150px; width:100%; position:absolute;" alt="...">
                 </div>
                 <div class="card-body">
                     <h5 class="card-title"><a href="http://intro-react-basile.netlify.app">To-do App + Calendar</a></h5>
-                    <p class="card-text">
+                    <p class="card-text text-muted" style="font-weight:500;">
                         This was my introduction to React.js A classic To-do app like any other "first profect". but as an extra I tried <br/>
                         implementing a calendar package into my project. This is where I learned about routing, React-Router-Dom, dependencies, ...
                     </p>
