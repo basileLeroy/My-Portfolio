@@ -6,6 +6,7 @@
 
         <title>@yield('title', 'Laravel')</title>
 
+        <link rel="shortcut icon" href="{{ asset('images/favicon.svg') }}">
         <link rel="stylesheet" type="text/css" href="{{ asset('css/app.css') }}" />
 
         <!-- Fonts -->
