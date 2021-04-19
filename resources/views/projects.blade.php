@@ -30,9 +30,8 @@
                 <div class="card-body">
                     <h5 class="card-title"><a href="https://hygeia.netlify.app/">Hygeia: A Health platform</a></h5>
                     <p class="card-text text-muted" style="font-weight:500;">
-                        A documentation platform combined with a social platform for people that have <br>
-                        been or are currently confronted with mental heatlh problems/ difficulties.
-                        
+                        A documentation platform combined with a social platform for people that are <br>
+                        familiar with mental heatlh issues or difficulties.
                     </p>
                 </div>
                 <div class="card-bottom text-end pr-2 pb-2">
