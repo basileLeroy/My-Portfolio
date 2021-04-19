@@ -12,7 +12,7 @@
 
     <div class="alert alert-warning alert-dismissible fade show" role="alert">
         <strong>My projects!</strong>
-        <p>Here you will find a list of projects I have worked on so far. As I am getting really enthousiastic, I can asure you that more will be displayed soon!</p>
+        <p>Here you will find a list of projects I have worked on so far. As I am getting really enthousiastic, I can assure you that more will be displayed soon!</p>
         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
             <span aria-hidden="true">&times;</span>
         </button>
@@ -28,7 +28,7 @@
                     <h5 class="card-title"><a href="https://hygeia.netlify.app/">Hygeia: A Health platform</a></h5>
                     <p class="card-text">
                         A documentation platform combined with a social platform for people that have <br>
-                        had or currently are in contact with some form of mental health issue/propblem.
+                        been or are currently confronted with mental heatlh problems/ difficulties.
                         
                     </p>
                 </div>
