@@ -11,6 +11,17 @@
 
 @section('content')
 <div class="contact-content">
+    <div class="alert alert-dismissible fade show" style="box-shadow: 0 4px 2px 0 hsla(0, 0%, 0%, 0.2); margin-left:5%; margin-right:5%;" role="alert">
+        <p style="color: #bd6b00; font-weight: 400;">
+            <span style="color: #bd6b00; font-weight: 700;">Contact me</span>
+            <hr>
+            If you have questions, would like my CV sent to you, or have a job offer for me? Feel free to contact me.
+        </p>
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+
     <div class="contact-form">
         <div class="card" style="box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.3);">
             <div class="card-body" style="font-weight:500; background-color: #F0F8FF;">

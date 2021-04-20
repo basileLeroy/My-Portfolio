@@ -289,9 +289,11 @@
             }
             .contact-content {
                 background-color: #ffffffde;
+                color: #505050;
+                padding-top: 20px;
                 width: 80%;
-                height: 100%;
                 margin: auto;
+                height: 100%;
                 
                 .contact-form {
                     color: #505050;
@@ -335,11 +337,12 @@
         }
         
         .footer {
-            background-color: #e6e6e6;
+            background-color: #efefef;
             width: 100%;
             max-width: 2700px;
             height: 3rem;
             margin: auto;
+            vertical-align: middle;
 
             z-index: 20;
         }
