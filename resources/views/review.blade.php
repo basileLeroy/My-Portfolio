@@ -13,9 +13,9 @@
 @section('content')
 <div class="review-content">
     <div class="review-button-desk">
-        <div class="bg-light position-sticky p-4 rounded-3" style="width: 200px; top: 200px">
+        <div class=" position-sticky rounded-3" style="width: 200px; top: 200px">
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                Add your review!
+                Add your review
             </button>
         </div>
     </div>
@@ -67,11 +67,11 @@
         @foreach ($posts as $post)
         <div class="single-review">
             <div class="card" style="box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.3);">
-                <div class="card-header" style=" font-weight: 700;">
+                <div class="card-header" style="background-color: #E0FFFF; font-weight: 700;">
                     From {{ $post->name }},
                 </div>
 
-                <div class="card-body">
+                <div class="card-body" style="background-color: #F0F8FF;">
                     <blockquote class="blockquote mb-0">
                         <p class="text-muted" style="font-weight: 400;">{{ $post->review }}</p>
                         <br>

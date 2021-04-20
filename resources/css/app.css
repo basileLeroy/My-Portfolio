@@ -19,6 +19,19 @@
     z-index: 20;
     height: 2.5rem;
   }
+  body header .watched {
+    border-left: 6px solid #00a2ff;
+    font-weight: 500;
+  }
+  body header .watched a {
+    margin-left: 4px;
+  }
+  body header .notwatching {
+    border-left: 5px solid silver;
+  }
+  body header .notwatching a {
+    margin-left: 4px;
+  }
   body .container-body {
     z-index: 0;
     background-image: url(../images/ghent.jpg);
@@ -195,7 +208,6 @@
     max-width: 2700px;
     height: 100vh;
     margin-top: 5rem;
-    padding-bottom: 2.5rem;
   }
   body .container-body .about-me {
     display: -webkit-box;
@@ -259,10 +271,15 @@
             justify-content: center;
   }
   body .container-body .project-content {
+    background-color: #ffffffde;
     color: #505050;
     padding-top: 20px;
+    width: 80%;
+    margin: auto;
+    height: 100%;
   }
   body .container-body .article-content {
+    background-color: #ffffffde;
     color: #505050;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -275,7 +292,8 @@
         justify-content: space-around;
     margin-top: 3.5rem;
     padding-top: 20px;
-    width: 100%;
+    width: 80%;
+    height: 100%;
     margin: auto;
   }
   body .container-body .article-content .article {
@@ -289,11 +307,16 @@
             flex-direction: row;
     -ms-flex-pack: distribute;
         justify-content: space-around;
-    padding-top: 20px;
     width: 25rem;
     margin: auto;
   }
   body .container-body .contact-content {
+    background-color: #ffffffde;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+  }
+  body .container-body .contact-content .contact-form {
     color: #505050;
     padding-top: 30px;
     width: 50%;
@@ -302,18 +325,22 @@
     width: 50%;
   }
   body .container-body .review-content {
+    background-color: #ffffffde;
+    width: 70%;
+    height: 100%;
     color: #505050;
     padding-top: 30px;
-    opacity: 0.9;
     margin: auto;
   }
   body .container-body .review-content .single-review {
     margin-top: 30px;
-    width: 50%;
+    width: 60%;
     padding: 10px;
     margin: auto;
+    opacity: 0.7;
   }
   body .container-body .review-content .review-button-desk {
+    position: fixed;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -328,10 +355,11 @@
     display: none;
   }
   body .footer {
-    background-color: #efefef;
+    background-color: #e6e6e6;
     width: 100%;
     max-width: 2700px;
-    height: 2.5rem;
+    height: 3rem;
+    margin: auto;
     z-index: 20;
   }
 }

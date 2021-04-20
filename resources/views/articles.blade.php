@@ -16,7 +16,7 @@
         <p style="color: #bd6b00; font-weight: 400;">
             <span style="color: #bd6b00; font-weight: 700;">My articles</span>
             <hr>
-            So far, I can only present you with what's shown here. Of course I will be adding more once I have more to write about!
+            I just found out about <a href="https://dev.to">Dev.to</a>, and will be updating new articles when I get the chance.
         </p>
         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
             <span aria-hidden="true">&times;</span>
@@ -24,8 +24,9 @@
     </div>
 
     <div class="article">
-        <div class="card mx-auto" style="box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.3); width: 350px">
+        <div class="card mx-auto" style="box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.3); width: 350px; background-color: #F0F8FF;">
             <img class="card-img-top" src="{{url('/images/Choosing_framework.png')}}" alt="Card image cap">
+            <span style="padding-left: 4px;">Dev.to</span>
             <div class="card-body">
                 <h3 class="card-title py-2"><a href="https://dev.to/basileleroy/choosing-a-framework-in-node-js-3n0c">Choosing a Framework in Node.js</a></h3>
                 <p class="card-text py-3 text-muted" style="font-weight:500;">
