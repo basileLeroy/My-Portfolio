@@ -12,7 +12,7 @@
 
     <div class="alert alert-warning alert-dismissible fade show" style="box-shadow: 0 4px 2px 0 hsla(0, 0%, 0%, 0.2); margin-left:5%; margin-right:5%;" role="alert">
         <p style="color: #bd6b00; font-weight: 400;">
-            <span style="color: #bd6b00; font-weight: 700;">My projects!</span>
+            <span style="color: #bd6b00; font-weight: 700;">My projects</span>
             <hr>
             Here you will find a list of projects I have worked on so far. As I am getting really enthousiastic, I can assure you that more will be displayed soon!
         </p>

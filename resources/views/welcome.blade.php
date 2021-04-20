@@ -51,7 +51,7 @@
                 <div class="card-body">
                     <h3 class="card-title">About me</h3>
                     <br>
-                    <p class="card-subtitle mb-2 text-start" style="font-weight:800;">Storytime!</p>
+                    <p class="card-subtitle mb-2 text-start" style="font-weight:800;">Storytime</p>
                     <p class="card-text text-start text-muted" style="font-weight:500;">
                         A path that started with carpentry, and ended up in web development. <br>
                         When I had to step away from my previous profession and started looking for something new to do, <br>

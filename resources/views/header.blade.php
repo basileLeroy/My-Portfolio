@@ -28,26 +28,26 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="font-size: 20px; font-weight: 400;">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="/">BASILE</a>
+                        <li class="nav-item {{ Request::is('/') ? 'watched' : '' }}">
+                            <a class="nav-link active" aria-current="page" href="/">ABOUT</a>
                         </li>
 
-                        <li class="nav-item">
+                        <li class="nav-item {{ Request::is('projects') ? 'watched' : '' }}">
                             <a class="nav-link" href="/projects">Projects</a>
                         </li>
                         
-                        <li class="nav-item">
+                        <li class="nav-item {{ Request::is('articles') ? 'watched' : '' }}">
                             <a class="nav-link" href="/articles">Articles</a>
                         </li>
 
-                        <li class="nav-item">
+                        <li class="nav-item {{ Request::is('contact') ? 'watched' : '' }}">
                             <a class="nav-link" href="/contact">Contact</a>
                         </li>
                     </ul>
                     <div class="login-container d-flex">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="font-size: 20px; font-weight: 400;">
-                            <li class="nav-item">
-                                <a class="nav-link" href="/review">Reviews</a>
+                            <li class="nav-item {{ Request::is('review') ? 'watched' : '' }}">
+                                <a class="nav-link" href="/review">Post your feedback</a>
                             </li>
                         </ul>
                     </div>

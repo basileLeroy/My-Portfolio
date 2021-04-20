@@ -180,6 +180,10 @@
     z-index: 20;
     height: 2.5rem;
   }
+  body header .watched {
+    border-bottom: 5px solid #00a2ff;
+    font-weight: 500;
+  }
   body .container-body {
     z-index: 0;
     overflow-x: hidden;
