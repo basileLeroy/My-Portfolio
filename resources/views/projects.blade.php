@@ -16,9 +16,6 @@
             <hr>
             Here you will find a list of projects I have worked on so far. As I am getting really enthousiastic, I can assure you that more will be displayed soon!
         </p>
-        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-        </button>
     </div>
 
     <div class="">

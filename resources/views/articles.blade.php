@@ -18,18 +18,14 @@
             <hr>
             I just found out about <a href="https://dev.to">Dev.to</a>, and will be updating new articles when I get the chance.
         </p>
-        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-        </button>
     </div>
 
     <div class="article">
-        <div class="card mx-auto" style="box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.3); width: 350px; background-color: #F0F8FF;">
+        <div class="card mx-auto" style="box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.3); width: 350px; background-color: #F0F8FF; margin-bottom: 30px;">
             <img class="card-img-top" src="{{url('/images/Choosing_framework.png')}}" alt="Card image cap">
-            <span style="padding-left: 4px;">Dev.to</span>
             <div class="card-body">
-                <h3 class="card-title py-2"><a href="https://dev.to/basileleroy/choosing-a-framework-in-node-js-3n0c">Choosing a Framework in Node.js</a></h3>
-                <p class="card-text py-3 text-muted" style="font-weight:500;">
+                <h3 class="card-title py-2"><a href="https://dev.to/basileleroy/choosing-a-framework-in-node-js-3n0c">Choosing a Framework in Node.js</a> <span style="padding-left: 4px; font-size: 17px;"><small><i>Dev.to</i></small></span></h3>
+                <p class="card-text text-muted" style="font-weight:500;">
                     I can only assume that every person that started coding, has been confronted with this situation... <br>
                     Where you want to achieve a certain feature or use a certain structure to ease the process when working on a project. <br><br>
                     <span style="font-weight:400; font-style: italic; color: #717171;">This article Was made from the point of view of a beginner in the subject.</span>
