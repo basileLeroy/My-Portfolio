@@ -11,6 +11,7 @@
         <meta property="og:url" content="https://basile-and-code.com"/>
         <meta property="og:image:width" content="1280" />
         <meta property="og:image:height" content="640" />
+        <meta property="fb:app_id" content="4337559846254195" />
 
         <title>@yield('title', 'Laravel')</title>
 
