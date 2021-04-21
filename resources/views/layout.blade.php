@@ -13,6 +13,8 @@
         <meta property="og:image:height" content="640" />
         <meta property="fb:app_id" content="4337559846254195" />
 
+        <meta name="twitter:card" content="summary_large_image">
+
         <title>@yield('title', 'Laravel')</title>
 
         <link rel="shortcut icon" href="{{ asset('images/favicon.svg') }}">
