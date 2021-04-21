@@ -19,7 +19,7 @@
         <meta name="twitter:description" content="Hi, I am Basile. A junior full stack web dev. And this is my portfolio.">
         <meta name="twitter:image" content="{{ asset('images/meta_card.png') }}">
 
-        <title>@yield('title', 'Laravel')</title>
+        <title>@yield('title', 'Basile&Code')</title>
 
         <link rel="shortcut icon" href="{{ asset('images/favicon.svg') }}">
         <link rel="stylesheet" type="text/css" href="{{ asset('css/app.css') }}" />
