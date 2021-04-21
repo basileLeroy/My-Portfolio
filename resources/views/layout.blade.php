@@ -5,13 +5,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <meta property="og:image" content="{{ asset('images/meta_card.png') }}"/>
+        <!-- <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" /> -->
         <meta property="og:title" content="Basile&Code"/>
         <meta property="og:description" content="Hi, I am Basile. A junior full stack web dev. And this is my portfolio."/>
         <meta property="og:type" content="website"/>
         <meta property="og:url" content="https://basile-and-code.com"/>
-        <meta property="og:image:width" content="1280" />
-        <meta property="og:image:height" content="640" />
         <meta property="fb:app_id" content="4337559846254195" />
+
 
         <meta name="twitter:card" content="summary_large_image">
 
