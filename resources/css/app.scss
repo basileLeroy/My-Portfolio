@@ -118,15 +118,28 @@
 
             .project-content {
                 padding-top: 30px;
+
+                .info-box {
+                    background-color: #fff;
+                }
             }
             .article-content {
                 padding-top: 30px;
                 width: 100%;
+
+                .info-box {
+                    background-color: #fff;
+                }
             }
             .contact-content {
                 padding-top: 30px;
                 width: 100%;
-                opacity: 0.9;
+                opacity: 1;
+
+                .info-box {
+                    background-color: #fff;
+                    opacity: 1;
+                }
             }
             .review-content {
                 

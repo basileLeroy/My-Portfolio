@@ -126,14 +126,24 @@
   body .container-body .project-content {
     padding-top: 30px;
   }
+  body .container-body .project-content .info-box {
+    background-color: #fff;
+  }
   body .container-body .article-content {
     padding-top: 30px;
     width: 100%;
   }
+  body .container-body .article-content .info-box {
+    background-color: #fff;
+  }
   body .container-body .contact-content {
     padding-top: 30px;
     width: 100%;
-    opacity: 0.9;
+    opacity: 1;
+  }
+  body .container-body .contact-content .info-box {
+    background-color: #fff;
+    opacity: 1;
   }
   body .container-body .review-content {
     padding-top: 30px;

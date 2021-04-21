@@ -11,7 +11,7 @@
 
 @section('content')
 <div class="contact-content">
-    <div class="alert alert-dismissible fade show" style="box-shadow: 0 4px 2px 0 hsla(0, 0%, 0%, 0.2); margin-left:5%; margin-right:5%;" role="alert">
+    <div class="alert alert-dismissible fade show info-box" style="box-shadow: 0 4px 2px 0 hsla(0, 0%, 0%, 0.2); margin-left:5%; margin-right:5%;" role="alert">
         <p style="color: #bd6b00; font-weight: 400;">
             <span style="color: #bd6b00; font-weight: 700;">Contact me</span>
             <hr>
@@ -23,7 +23,7 @@
     </div>
 
     <div class="contact-form">
-        <div class="card" style="box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.3);">
+        <div class="card" style="box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.3); margin-left:5%; margin-right:5%;">
             <div class="card-body" style="font-weight:500; background-color: #F0F8FF;">
                 @if(Session::has('message_sent'))
                     <div class="alert alert-success" role="alert">
