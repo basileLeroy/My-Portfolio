@@ -43,7 +43,7 @@
     min-width: 100vw;
     min-height: 100vh;
     margin-top: 5rem;
-    margin-bottom: 2.5rem;
+    margin-bottom: 3rem;
   }
   body .container-body .about-me {
     display: -webkit-box;
@@ -168,12 +168,11 @@
     padding: 10px;
     bottom: 0;
   }
-  body .container-body .footer {
-    position: absolute;
-    margin-top: 3rem;
+  body .footer {
+    left: 0;
+    bottom: 0;
     background-color: #efefef;
     width: 100%;
-    max-width: 2700px;
     height: 3rem;
     z-index: 0;
   }
@@ -188,7 +187,8 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    background-image: url(../images/ghent.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.871)), to(rgba(255, 255, 255, 0.871))), url(../images/ghent.jpg);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.871), rgba(255, 255, 255, 0.871)), url(../images/ghent.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -196,7 +196,6 @@
     font-family: 'Nunito';
     color: #212121;
     width: 100%;
-    max-width: 2700px;
     margin: auto;
     height: 100vh;
     top: 0;
@@ -208,9 +207,7 @@
     -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
             box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
     width: 100%;
-    max-width: 2700px;
     position: absolute;
-    left: 0;
     top: 0;
     z-index: 20;
     height: auto;
@@ -220,14 +217,17 @@
     font-weight: 500;
   }
   body .container-body {
-    background-color: #ffffffde;
     z-index: 0;
     overflow-x: hidden;
     position: relative;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin: auto;
     width: 100%;
     max-width: 2700px;
     height: 100%;
     margin-top: 5.4rem;
+    margin-bottom: 3rem;
   }
   body .container-body .about-me {
     display: -webkit-box;
@@ -372,12 +372,12 @@
   body .container-body .review-content .review-button-mobile {
     display: none;
   }
-  body .container-body .footer {
+  body .footer {
     position: absolute;
-    margin-top: 3rem;
+    left: 0;
+    bottom: 0;
     background-color: #efefef;
     width: 100%;
-    max-width: 2700px;
     height: 3rem;
     z-index: 0;
   }
