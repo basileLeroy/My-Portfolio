@@ -15,6 +15,9 @@
 
 
         <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Basile&Code">
+        <meta name="twitter:description" content="Hi, I am Basile. A junior full stack web dev. And this is my portfolio.">
+        <meta name="twitter:image" content="{{ asset('images/meta_card.png') }}">
 
         <title>@yield('title', 'Laravel')</title>
 
