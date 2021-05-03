@@ -16,6 +16,7 @@
 
             gtag('config', 'UA-185794040-2');
         </script>
+        <!-- Google Analytics -->
 
     </footer>
 @endsection
