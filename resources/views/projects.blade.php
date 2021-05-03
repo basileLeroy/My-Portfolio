@@ -59,7 +59,7 @@
                     <img src="{{url('/images/HustlePrime_banner.png')}}" class="project-active" style="height: 150px; width:100%; position:absolute;" alt="...">
                 </div>
                 <div class="card-body">
-                    <h5 class="card-title"><a href="https://hustle-prime.netlify.app/">Hustle Prime</a></h5>
+                    <h5 class="card-title"><a href="https://hustleprime.fun/">Hustle Prime</a></h5>
                     <p class="card-text text-muted" style="font-weight:500;">
                         A fan-based vanilla JS platform (and actually my first JS project I made) made for a mobile game. <br/>
                         It contains multiple html pages and some interactivity (see lower half of the Ancient sets: nav: META&gt;Ancient sets).
