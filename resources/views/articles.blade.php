@@ -33,7 +33,23 @@
                 
             </div>
             <div class="text-right pr-3">
-                <p>Date: <span style="font-weight:400; font-style: italic; color: #717171;">10 apr 2021</span></p>
+                <p>Date: <span style="font-weight:400; font-style: italic; color: #717171;">10 Apr 2021</span></p>
+            </div>
+        </div>
+
+        <div class="card mx-auto" style="box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.3); width: 350px; background-color: #F0F8FF; margin-bottom: 30px;">
+            <img class="card-img-top" src="{{url('/images/GAReactBanner.png')}}" alt="Card image cap">
+            <div class="card-body">
+                <h3 class="card-title py-2"><a href="https://dev.to/basileleroy/choosing-a-framework-in-node-js-3n0c">Google Analytics on React.js Components</a> <span style="padding-left: 4px; font-size: 17px;"><small><i>Dev.to</i></small></span></h3>
+                <p class="card-text text-muted" style="font-weight:500;">
+                    Struggling to use Google Analytics on a React-app? <br>
+                    Do you only get data on the landing page of your app, instead of every page? <br><br>
+                    <span style="font-weight:400; font-style: italic; color: #717171;">This article will be about how to fix this problem!</span>
+                </p>
+                
+            </div>
+            <div class="text-right pr-3">
+                <p>Date: <span style="font-weight:400; font-style: italic; color: #717171;">05 May 2021</span></p>
             </div>
         </div>
     </div>
