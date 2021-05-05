@@ -40,7 +40,7 @@
         <div class="card mx-auto" style="box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.3); width: 350px; background-color: #F0F8FF; margin-bottom: 30px;">
             <img class="card-img-top" src="{{url('/images/GAReactBanner.png')}}" alt="Card image cap">
             <div class="card-body">
-                <h3 class="card-title py-2"><a href="https://dev.to/basileleroy/choosing-a-framework-in-node-js-3n0c">Google Analytics on React.js Components</a> <span style="padding-left: 4px; font-size: 17px;"><small><i>Dev.to</i></small></span></h3>
+                <h3 class="card-title py-2"><a href="https://dev.to/basileleroy/google-analytics-on-react-js-components-4d2a">Google Analytics on React.js Components</a> <span style="padding-left: 4px; font-size: 17px;"><small><i>Dev.to</i></small></span></h3>
                 <p class="card-text text-muted" style="font-weight:500;">
                     Struggling to use Google Analytics on a React-app? <br>
                     Do you only get data on the landing page of your app, instead of every page? <br><br>
