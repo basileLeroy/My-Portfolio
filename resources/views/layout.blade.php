@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="keywords" content="basile-and-code, basile and code, basile, basile Leroy, webdev, laravel, react, php, javascript, js, node, it, IT, coding, full-stack, fullstack, 
         full stack, web development, webdevelopment, ghent, belgium, belgie, België, website maintenance, maintenance, building, websites, 
-        build website, building websites, Gent, web ontwikkeling, website bouwen, webdev portfolio, web dev portfolio, web development portfolio"
+        build website, building websites, Gent, web ontwikkeling, website bouwen, webdev portfolio, web dev portfolio, web development portfolio" >
 
         <meta property="og:image" content="{{ asset('images/meta_card.png') }}"/>
         <meta property="og:image:width" content="1200" />
